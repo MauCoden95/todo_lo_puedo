@@ -1,0 +1,25 @@
+@import url('https://fonts.cdnfonts.com/css/barlow-2');
+
+*{
+    font-family: 'Barlow', sans-serif;                                     
+}
+
+#banner{
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    animation: changeBackground 10s infinite;
+}
+
+@keyframes changeBackground {
+    0% { background-image: url('../img/Banner1.jpg'); }
+    25% { background-image: url('../img/Banner2.jpg'); }
+    50% { background-image: url('../img/Banner3.jpg'); }
+    75% { background-image: url('../img/Banner4.jpg'); }
+    100% { background-image: url('../img/Banner5.jpg'); }
+  }
+  
+  
+#banner_div{
+    background: rgba(43, 43, 43, 0.8);
+}
